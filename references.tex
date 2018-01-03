@@ -1,0 +1,113 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Cover Letter
+% XeLaTeX Template
+% Version 1.1 (9/1/2016)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original authors:
+% Claud D. Park (posquit0.bj@gmail.com)
+% Lars Richter (mail@ayeks.de)
+% With modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+ 
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\definecolor{awesome}{HTML}{333333}
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+\name{}{Nicholas Westbury}
+% \address{246-1002, Gwangmyeongmayrouge Apt. 86, Cheongna lime-ro, Seo-gu, Incheon-si, 404-180, Rep. of KOREA}
+\mobile{(780)-435-9563}
+
+\email{nwestbur@uwaterloo.ca}
+\homepage{nwestbury.com}
+\github{nwestbury}
+%\linkedin{posquit0}
+%\skype{skypeid}
+\stackoverflow{1524592}{nwestbury}
+%\twitter{@twit}
+
+\quote{2A Applied Mathematics - Waterloo ID \#: 20550430} % Your expertise/fields
+
+%----------------------------------------------------------------------------------------
+%	RECIPIENT/POSITION/LETTER INFORMATION
+%	All of the below lines must be filled out
+%----------------------------------------------------------------------------------------
+
+\recipient{Royal Bank of Canada}{200 Bay Street \\South/North Tower \\Toronto, ON M5J 2W7}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+\setlength\tabcolsep{0pt}
+\setlength{\extrarowheight}{0pt}
+\newcolumntype{+}{>{\global\let\currentrowstyle\relax}}
+\newcolumntype{^}{>{\currentrowstyle}}
+\newcommand{\rowstyle}[1]{\gdef\currentrowstyle{#1}%
+#1\ignorespaces
+}
+
+\begin{cvletter}
+
+%------------------------------------------------
+  \lettersection{References}
+
+  \vspace{0.2cm}
+  \textbf{Micheal Bowling}\\
+  Research Supervisor \& Computer Science Professor\\
+  bowling@cs.ualberta.ca\\
+  (780)-492-1766\\
+  
+
+  \vspace{0.2cm}
+  \textbf{Michel Gariepy}\\
+  Robotics \& Physics Teacher\\
+  mgariepy@centrenord.ab.ca\\
+  (780)-640-9123\\
+
+  \vspace{0.2cm}
+  \textbf{Nathan Liebrecht}\\
+  Website Business Partner\\
+  liebrech@ualberta.ca\\
+  (587)-985-1922\\
+
+\end{cvletter}
+
+
+\end{document}
